@@ -14,12 +14,13 @@ public class praktijkopdracht1 extends Applet {
 
     }
 
-    void tekenBoomStam(Graphics g,int x, int y, int height, int width) {
+    void tekenBoomStam(Graphics g, int x, int y, int height, int width) {
         g.fillRect(x, y, width, height);
 
     }
-    void tekenBlaaderen(Graphics g, int x2, int y2, int height2, int width2){
+
+    void tekenBlaaderen(Graphics g, int x2, int y2, int height2, int width2) {
         g.setColor(Color.green);
-        g.fillOval(x2,y2,width2,height2);
+        g.fillOval(x2, y2, width2, height2);
     }
 }

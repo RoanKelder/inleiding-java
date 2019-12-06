@@ -37,8 +37,8 @@ public class MensenTeller extends Applet {
 
     @Override
     public void paint(Graphics g) {
-        g.drawString("Aantal Mannen:" + TellerMannen, 50, 50);
-        g.drawString("Aantal Vrouwen:" + Tellervrouwen, 50, 100);
+        g.drawString("Aantal Mannen:" + TellerMannen, 50, 100);
+        g.drawString("Aantal Vrouwen:" + Tellervrouwen, 50, 50);
         g.drawString("Aantal Jongens:" + TellerJongens, 50, 150);
         g.drawString("Aantal Meisjes:" + TellerMeisjes, 50, 200);
         g.drawString("Aantal totaal:" + Tellertotaal + (TellerMeisjes +TellerJongens +TellerMannen +Tellervrouwen), 50, 250);

@@ -24,12 +24,13 @@ public class Opdracht4 extends Applet {
         add(tekstvak);
         add(okknop);
     }
+
     public void paint(Graphics g) {
 
-        g.drawString(tekst, 50, 60 );
+        g.drawString(tekst, 50, 60);
     }
 
-    public class OkKnopActionListener implements ActionListener{
+    public class OkKnopActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
 
             tekst = "het getal is niet gevonden";
@@ -37,7 +38,7 @@ public class Opdracht4 extends Applet {
             int cijfer = Integer.parseInt(s);
             for (int i = 0; i < getalen.length; i++) {
                 int getal = getalen[i];
-                if (cijfer == getal){
+                if (cijfer == getal) {
                     tekst = "het getal is: " + getal + ",  de index is:" + i;
                 }
                 repaint();

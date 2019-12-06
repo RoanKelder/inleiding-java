@@ -15,7 +15,7 @@ public class praktijkopdracht2 extends Applet {
             y +=150;
             for (int j = 0; j < 5 ; j++) {
                 tekenstam(g, x, y, 25, 75);
-                x += 50;
+                x += 70;
 
             }
 

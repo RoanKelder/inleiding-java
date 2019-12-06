@@ -26,7 +26,7 @@ public class Seconden extends Applet {
 
 
     }
- 
+
     @Override
     public void paint(Graphics g) {
         g.drawString("zoveel seconden zitten er in 1 uur 60x60 = "+ uitkomst1,20,20);

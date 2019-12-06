@@ -30,6 +30,7 @@ public class InclusiefBTW extends Applet {
 
     @Override
     public void paint(Graphics g) {
+
         g.drawString(""+ (Getal * BtwBedrag), 50,75);
     }
 
